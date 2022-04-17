@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  const heading = `<Happpy Easter!>`
+  const heading = `<Happpy Easter>`
 
   return (
     <div className="App">
