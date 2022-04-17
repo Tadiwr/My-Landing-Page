@@ -1,0 +1,73 @@
+:root {
+  --orange: #FF5B15;
+} 
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar */
+.nav {
+  width: 100%;
+  background-color: var(--orange);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-logo {
+  color: rgb(23, 23, 23);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
+.details {
+  /* background-color: red; */
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp { /*DIsplay Picture */
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  transition: all, 0.3s;
+}
+
+.dp:hover {
+  height: 200px;
+  width: 200px;
+}
+
+.socials {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #FF5B15;
+  margin: 2px;
+  color: white;
+  transition: all, 0.4s;
+}
+
+.socials:hover {
+  background-color: black;
+}
+
+.socials:focus {
+  background-color: black;
+}
