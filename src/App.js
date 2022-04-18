@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  const heading = `<Happpy Easter>`
+  const heading = `<Hello World!/>`
 
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
           <h1 className='nav-logo'>{heading}</h1>
           <img src={dp}  className="dp" alt="dp"/>
 
+          {/* TODO:Add Follower Numbers */}
           <p>Hello there, my name is Tadiwa. Im a Computer Science student in High School, based in Zimbabwe 🇿🇼 passionate about Web Development and Software Engineering. Check out my socials links and projects down below ⬇️⬇️ </p>
           <a className='socials' href='http://instagram.com/tadiwadev' > Instagram</a>
           <a className='socials' href='http://github.com/Tadiwr' >Github</a>
