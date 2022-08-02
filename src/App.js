@@ -20,7 +20,7 @@ function App() {
           <p>Hello there, my name is Tadiwa. Im a Computer Science student in High School, based in Zimbabwe 🇿🇼 passionate about Web Development and Software Engineering. Check out my socials links and projects down below ⬇️⬇️ </p>
           <a className='socials' href='http://instagram.com/tadiwadev' > Instagram</a>
           <a className='socials' href='http://github.com/Tadiwr' >Github</a>
-          <a className='socials' href='https://rand-activity.netlify.app/' >Random Activity Generator</a>
+          {/* <a className='socials' href='https://rand-activity.netlify.app/' >Random Activity Generator</a> */}
       </div>
     </div>
   );
