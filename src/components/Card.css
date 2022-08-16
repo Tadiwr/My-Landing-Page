@@ -1,0 +1,24 @@
+:root {
+    --primary: #FF5B15;
+    --secondary: #fff;
+    --background: rgb(19, 19, 19);
+}
+
+.main {
+    width: 100%;
+    /* border-radius: 10px; */
+    background-color: var(--primary);
+}
+
+.main:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cardTitle {
+    font-size: px;
+}
