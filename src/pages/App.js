@@ -25,6 +25,7 @@ function App() {
           <a className='link_button' href='https://twitter.com/tadiwrr' >Twitter </a>
 
           <h1>My Projects</h1>
+          <a className='link_button' href='https://tadiwr-nba-stats-jupyter-notebook-main-yeriu7.streamlit.app/' >NBA Stats Dashboard 🏀📈</a>
           <a className='link_button' href='https://gituserquery.netlify.app/' >GitHub User Query</a>
           <a className='link_button' href='https://github.com/Tadiwr/CounterApp' >Counter App with Kotlin</a>
           <a className='link_button' href='https://github.com/Tadiwr/LandingPage' >Code for this Landing Page 😁</a>
