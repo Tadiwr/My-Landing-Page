@@ -4,7 +4,8 @@ import NavBar from '../components/Nav';
 import './App.css';
 
 function App() {
-  const aboutText = `Hello there, my name is Tadiwanashe Shangwa. Im a developer at Codapt, based in Zimbabwe 🇿🇼 passionate about Mobile Development and Kotlin. `
+  const aboutText = `Hello there, my name is Tadiwanashe Shangwa. Im a CS Student, based in Zimbabwe 🇿🇼 passionate about Data Science. `
+  const nba_dash_link = "https://tadiwr-nba-dashboard-home--z5zmve.streamlit.app/"
 
   return (
     <div className="App">
@@ -19,16 +20,17 @@ function App() {
             <p>{aboutText}</p>
           </div>
 
+          <h1>My Projects</h1>
+          <a className='link_button' href={nba_dash_link} >NBA Stats Dashboard 🏀📈</a>
+          <a className='link_button' href='https://gituserquery.netlify.app/' >GitHub User Query</a>
+          <a className='link_button' href='https://github.com/Tadiwr/CounterApp' >Counter App with Kotlin</a>
+          <a className='link_button' href='https://github.com/Tadiwr/LandingPage' >Code for this Landing Page 😁</a>
+
           <h1>My Socials</h1>
           <a className='link_button' href='http://instagram.com/tadiwadev' > Instagram</a>
           <a className='link_button' href='http://github.com/Tadiwr' >Github </a>
           <a className='link_button' href='https://twitter.com/tadiwrr' >Twitter </a>
 
-          <h1>My Projects</h1>
-          <a className='link_button' href='https://tadiwr-nba-stats-jupyter-notebook-main-yeriu7.streamlit.app/' >NBA Stats Dashboard 🏀📈</a>
-          <a className='link_button' href='https://gituserquery.netlify.app/' >GitHub User Query</a>
-          <a className='link_button' href='https://github.com/Tadiwr/CounterApp' >Counter App with Kotlin</a>
-          <a className='link_button' href='https://github.com/Tadiwr/LandingPage' >Code for this Landing Page 😁</a>
 
       </div>
       <Footer/>
